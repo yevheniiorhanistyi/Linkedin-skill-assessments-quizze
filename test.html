@@ -19,14 +19,26 @@
         <div id="large-header" class="large-header">
             <canvas id="demo-canvas"></canvas>
 
+            <div class="modal">
+                <div class="modal__content">
+                    <h3 class="modal__title">Choose your language to begin...</h3>
+                    <div class="modal__items">
+                        <button type="button" class="btn item item-language" data-language="Node.js">Node.js</button>
+                        <button type="button" class="btn item item-language"
+                            data-language="JavaScript">JavaScript</button>
+                        <button type="button" class="btn item item-language" data-language="MySQL">MySQL</button>
+                    </div>
+                </div>
+            </div>
+
             <div class="assessments__intro-page">
-                <a href="index.html" class="btn btn-back">
+                <button type="button" class="btn btn-back">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" class="mercado-match"
                         data-supported-dps="16x16" fill="currentColor" width="16" height="16" focusable="false">
                         <path d="M7 3L4.16 7H14v2H4.16L7 13H4.55L1 8l3.55-5z"></path>
                     </svg>
                     <span class="btn__text">Сhoose another language</span>
-                </a>
+                </button>
                 <section class="assessments__intro-wrapper">
                     <img class="assessments__intro-icon" src="img/icons/icon-HTML.png" style="width: 48px; height:48px"
                         alt="JavaScript">
