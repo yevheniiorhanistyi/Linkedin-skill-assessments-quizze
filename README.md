@@ -1,2 +1,15 @@
-# linkedin-skill-assessments-quizze
-https://yevheniiorhanistyi.github.io/linkedin-skill-assessments-quizze/
+# Linkedin skill assessments quiz 
+> <p>
+> This repository is intended for those who want to try their hand at knowing programming languages or technologies before starting a real test on the Linkedin
+> </p>
+
+## Quiz questions:
+
+- Node.js;
+- JavaScript;
+- MySQL;
+
+**[Start quiz](https://yevheniiorhanistyi.github.io/linkedin-skill-assessments-quizze/)**
+
+> All the answers for this test were taken from this repository [Evgenii Ebazhanov](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes)
+
