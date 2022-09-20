@@ -1,0 +1,14 @@
+@media(max-width: 920px) {
+    .large-header {
+        display: none;
+    }
+
+    .wrapper-result {
+        display: none;
+    }
+
+    .mobile-modal {
+        display: block;
+        z-index: 1000;
+    }
+}
