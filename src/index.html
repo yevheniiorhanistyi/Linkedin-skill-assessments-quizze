@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="img/icons/atom.ico">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Test</title>
+</head>
+
+<body>
+    <main>
+        <div id="large-header" class="large-header">
+            <canvas id="demo-canvas"></canvas>
+
+            <div class="modal">
+                <div class="modal__content">
+                    <h3 class="modal__title">Choose your language to begin...</h3>
+                    <div class="modal__items">
+                        <button type="button" class="btn item item-language" data-language="Node.js"
+                            data-test="Choose Node.js">Node.js</button>
+                        <button type="button" class="btn item item-language" data-language="JavaScript"
+                            data-test="Choose JavaScript">JavaScript</button>
+                        <button type="button" class="btn item item-language" data-language="MySQL"
+                            data-test="Choose MySQL">MySQL</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="assessments__intro-page">
+                <button type="button" class="btn btn-back" data-test="back to inner module">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" class="mercado-match"
+                        data-supported-dps="16x16" fill="currentColor" width="16" height="16" focusable="false">
+                        <path d="M7 3L4.16 7H14v2H4.16L7 13H4.55L1 8l3.55-5z"></path>
+                    </svg>
+                    <span class="btn__text">Сhoose another language</span>
+                </button>
+                <section class="assessments__intro-wrapper">
+                    <img class="assessments__intro-icon" src="img/icons/icon-HTML.png" style="width: 48px; height:48px"
+                        alt="JavaScript">
+                    <h1 class="assessments__intro-title">...</h1>
+                    <p class="assessments__intro-text">Topics: Data Types and Structures; Functions, Objects, and
+                        Classes;
+                        JavaScript Fundamentals; Logic and Control Flow; Web Development</p>
+                    <div class="rules">
+                        <div class="rules__item">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24"
+                                fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                                <path
+                                    d="M7 4a2 2 0 11-2-2 2 2 0 012 2zm2-1v2h12V3zm-4 7a2 2 0 102 2 2 2 0 00-2-2zm4 3h12v-2H9zm-4 5a2 2 0 102 2 2 2 0 00-2-2zm4 3h12v-2H9z">
+                                </path>
+                            </svg>
+                            <p class="rules__text">15 multiple choice questions</p>
+                        </div>
+                        <div class="rules__item">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24"
+                                fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                                <path
+                                    d="M14.73 10H17l-5.5 8L8 14.5l1.34-1.34L11.21 15zM20 3v16a3 3 0 01-3 3H7a3 3 0 01-3-3V3h5.69l.52-1A2 2 0 0112 1a2 2 0 011.76 1l.52 1zm-2 2h-2.6l.6 1.1V7H8v-.9L8.6 5H6v14a1 1 0 001 1h10a1 1 0 001-1z">
+                                </path>
+                            </svg>
+                            <p class="rules__text">Score in the top 30% to earn a badge</p>
+                        </div>
+                    </div>
+                    <hr class="divider">
+                    <h2 class="info-title">Before you start</h2>
+                    <ul class="info-list">
+                        <li class="info-list__item">You must complete this assessment in one session — make sure your
+                            internet is reliable.</li>
+                        <li class="info-list__item">You can retake this assessment once if you don't earn a badge.</li>
+                        <li class="info-list__item">We won't show your results to anyone without your permission.</li>
+                    </ul>
+                    <hr class="divider">
+                    <div class="display-flex justify-space-between">
+                        <div class="display-flex flex-row align-items-center">
+                            Language:
+                            <span class="ml1 t-bold">English</span>
+                        </div>
+                        <button class="btn btn-start" data-test="start quizzes">Start</button>
+                    </div>
+                </section>
+                <!--/wrapper-->
+
+
+                <!--/test-->
+            </div>
+            <!--/intro-page-->
+            <div class="test-wrapper">
+                <header class="test-header">
+                    <h2 class="test-header__title">JavaScript assesment</h2>
+                </header>
+                <div class="test-container">
+                    <div class="question">
+                        <p class="question__title">Which statement creates a new object using the Person constructor?
+                            Which statement creates a new Person object called "student"?</p>
+                        <span class="multicode"></span>
+                        <span class="questionImg"></span>
+                    </div>
+
+                    <div class="answer-list">
+                        <div class="answer-list__item">
+                            <input type="radio" id="0">
+                            <label class="question-label" for="0">`var student = new Person();`</label>
+                        </div>
+                        <div class="answer-list__item">
+                            <input type="radio" id="1">
+                            <label class="question-label" for="1">`var student = construct Person;`</label>
+                        </div>
+                        <div class="answer-list__item">
+                            <input type="radio" id="2">
+                            <label class="question-label" for="2">`var student = Person();`</label>
+                        </div>
+                        <div class="answer-list__item">
+                            <input type="radio" id="3">
+                            <label class="question-label" for="3">`var student = construct Person();`</label>
+                        </div>
+                    </div>
+                    <div class="feedback">
+                        <p class="feedback__paragraf">Something wrong with this question?</p>
+                        <a class="feedback__link" href="https://github.com/yevheniiorhanistyi" target="_blank">Give
+                            feedback</a>
+                    </div>
+                </div>
+                <progress class="progress" max="100" value="0">Current value 1</progress>
+                <footer class="test__footer">
+                    <span class="question-number">Q1/2</span>
+                    <button class="btn btn-next btn-disabled" data-test="next question" disabled>Next</button>
+                </footer>
+            </div>
+            <div class="result">
+                <div class="result-content">
+                    <h2 class="result__title">Result:</h2>
+                    <p class="current-answers"></p>
+                    <p class="percent"></p>
+                    <div class="btn-group">
+                        <button class="btn btn-again" data-test="reload quizzes">Try Again</button>
+                        <a href="result.html" target="_blank" class="btn btn-check" data-test="check answers">Check your
+                            answers</a>
+                        <!-- <button class="btn btn-choose">Choose another language</button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/large-header-->
+        <div class="mobile-modal">
+            <h3 class="modal__title">This feature is only available on a computer</h3>
+        </div>
+    </main>
+
+    <script src="js/TweenLite.min.js"></script>
+    <script src="js/EasePack.min.js"></script>
+    <script src="js/demo-1.js"></script>
+    <script src="js/app.min.js"></script>
+</body>
+
+</html>
